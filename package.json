@@ -1,0 +1,20 @@
+{
+  "name": "node-archiver",
+  "description": "Create a gzipped tar archive of a given path.",
+  "author": "Richard Bolt <rbolt@backcountry.com>",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardbolt/node-archiver.git"
+  },
+  "main": "./lib/archiver.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "fstream": "0.1.x",
+    "tar": "0.1.x"
+  }
+}
+
