@@ -1,7 +1,7 @@
 {
   "name": "node-archiver",
   "description": "Create a gzipped tar archive of a given path.",
-  "author": "Richard Bolt <rbolt@backcountry.com>",
+  "author": "Richard Bolt <richard@richardbolt.com>",
   "version": "0.1.0",
   "repository": {
     "type": "git",
