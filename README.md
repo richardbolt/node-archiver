@@ -24,3 +24,20 @@ archiver(__dirname, './dist/my-archive.tar.gz', function(err) {
   // Done!
 });
 ```
+
+Create an archive in the dist/ directory of your project:
+
+```
+./node_modules/node-archiver/bin/create_dist
+```
+
+Adding the above line to your build process will create a distributable .tar.gz archive in the dist/ directory of your project. The name of the file will match the name attribute in your `package.json`.
+
+Release Notes
+-------------
+
+**0.1.0** Initial Release  
+**0.1.1** Bug Fix  
+**0.2.0** Added `bin/create_dist` for easier integration into a build process.  
+
+
